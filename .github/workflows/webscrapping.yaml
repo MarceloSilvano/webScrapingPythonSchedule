@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: instalar o python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v3
 
       - name: instalar os pacotes do requirements.txt
         run: python -m pip install pip install -r requirements.txt
